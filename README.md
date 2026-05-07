@@ -1,27 +1,17 @@
 # CI/CD Pipeline using Jenkins, Docker, Kubernetes
 
 ## Project Overview
-This project demonstrates a complete CI/CD pipeline:
+This project demonstrates an end-to-end CI/CD pipeline using Jenkins, Docker, and Kubernetes.
 
-- Jenkins for automation
-- Docker for containerization
-- Kubernetes (Minikube) for deployment
+## Architecture Flow
+GitHub → Jenkins → Docker Build → Kubernetes Deployment → Application Access
 
 ## Pipeline Stages
-1. Build Docker Image
-2. Deploy to Kubernetes
+- Build Docker Image
+- Deploy to Kubernetes
 
 ## Tech Stack
 - Node.js
 - Docker
 - Jenkins
 - Kubernetes
-
-## Access App
-minikube service devops-service
-
-## Key Learnings
-- Jenkins pipeline setup
-- Docker build automation
-- Kubernetes deployment
-- Handling real-time permission issues
